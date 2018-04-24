@@ -1,0 +1,404 @@
+﻿<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"> 
+<head>
+<title>FVA Control</title>
+<link href="fvacontrol.css" rel="stylesheet" type="text/css"  media="screen"/>
+
+<script>
+var estatus = 2
+function catiar(){ //boton de pruebas 
+	if (estatus == 2) {document.getElementById("Container1").style.backgroundImage = "none"; estatus = 1;}
+	else {document.getElementById("Container1").style.backgroundImage = 'url("images/pattern_01.jpg")'; estatus = 2;}
+
+	var lafecha = "16-Nov-20"
+	}
+</script>
+</head>
+<body>
+<div id="elestereo"> <!-- Canciones  -->
+
+
+ 
+
+
+
+
+
+<audio id="radiola" controls="controls" loop > <source src="usted señora.mp3" type="audio/mpeg"> </audio>
+<select id="droplist" >
+	<option value="usted señora.mp3">A Ud Señora</option>
+	<option value="el fundo tiene patrona.mp3">El Fundo Tiene Patrona</option>
+	<option value="la distancia.mp3">La Distancia</option>
+	<option value="la viuda millonaria.mp3">La Viuda Millonaria</option>
+	<option value="laguna vieja.mp3">Laguna Vieja</option>
+	<option value="lamento del canoero.mp3">Lamento del Canoero</option>
+	<option value="llanerazo.mp3">Llanerazo</option>
+	<option value="llanero que duerme tarde.mp3">Llanero que Duerme Tarde</option>
+	<option value="mamita linda.mp3">Mamita Linda</option>
+	<option value="me fui a buscarla.mp3">Me Fui a Buscarla a la Manga</option>
+	<option value="recordando la envidia.mp3">Recordando la envidia</option>
+	<option value="rios de trago.mp3">Rios de Trago</option>
+	<option value="sail away.mp3">Sail Away</option>
+	<option value="El Decameron Negro 1.mp3">El Decameron Negro 1</option>
+	<option value="El Decameron Negro 2.mp3">El Decameron Negro 2</option>
+	<option value="El Decameron Negro 3.mp3">El Decameron Negro 3</option>
+	<option value="Suite Compostelana 1.mp3">Suite Compostelana 1</option>
+	<option value="Suite Compostelana 2.mp3">Suite Compostelana 2</option>
+	<option value="Suite Compostelana 3.mp3">Suite Compostelana 3</option>
+	<option value="Suite Compostelana 4.mp3">Suite Compostelana 4</option>
+	<option value="Suite Compostelana 5.mp3">Suite Compostelana 5</option>
+	<option value="Suite Compostelana 6.mp3">Suite Compostelana 6</option>
+	<option value="Invocacion Y Danza.mp3">Invocacion Y Danza</option>
+	<option value="Suite For Guitar 1.mp3">Suite Compostelana </option>
+	<option value="Un Sueno En La Floresta.mp3">Suite For Guitar 1</option>
+</select>
+<input id="repeat" 		type="button" 	value="Play" onclick="document.getElementById('radiola').src = document.getElementById('droplist').value; document.getElementById('radiola').play()" />
+<input id="dictiword" 	type="text" 	Value="Palabras" style="margin-left:10px;" />
+<input id="lista" 		type="button" 	value="Buscar" />
+<input id="fondo" 		type="button" 	value="Fondo" onclick="catiar()" />
+</div>
+<nav> <!-- Menu desplegable -->
+	<ul>
+		
+		<li><a href="http://www.sunandshade.us/FVA%20Control%20Page%201%20(Bancos).htm" target="_blank">Bancos</a>
+			<ul>
+				<li><a href="https://online.citibank.com/US/JSO/signon/LocaleUsernameSignon.do?locale=en_US" target="_blank">Citibank</a></li>
+				<li><a href="https://secure07b.chase.com/web/auth/dashboard#/dashboard/index/index" target="_blank">Chase</a></li>
+				<li><a href="https://www.capitalone.com/" target="_blank">Capital</a></li>
+				<li><a href="https://www.discover.com/" target="_blank">Discover</a></li>
+				<li><a href="https://www.walmart.com/creditlogin" target="_blank">Walmart</a></li>				
+				<li><a href="https://login.merrickbank.com/" target="_blank">Merrick Bank</a></li>
+				<li><a href="https://www.paypal.com/" target="_blank">Pay Pal</a></li>	
+				<li><a href="http://www.Sunpass.com/" target="_blank">Sunpass</a></li>
+				<li><a href="http://www.fpl.com/index.shtml" target="_blank">FPL</a></li>
+				<li><a href="https://member.cvty.com/" target="_blank">Obamacare</a></li>
+				<li><a href="https://www.orbitel.com/es/us" target="_blank">Orbitel</a></li>
+				<li><a href="https://onlineservice7.progressive.com/SelfService.Web/SelfService.aspx?Page=Login.AuthenticateUser&QueryStringSetKey=SessionGateway&OfferingID=SelfService&SessionStart=TRUE" target="_blank">Progressive</a></li>
+				<li><a href="https://account.t-mobile.com/oauth2/v1/auth?redirect_uri=https%3A%2F%2Fmy.t-mobile.com&scope=TMO_ID_profile%20associated_lines%20billing_information&client_id=A-3amGd14-iz0&access_type=ONLINE&response_type=code&approval_prompt=auto&state=false" target="_blank">T-Mobil</a></li>
+				<li><a href="http://www.totalchoicehosting.com/" target="_blank">Total Choice Hosting</a></li>
+
+			</ul></li>
+		<li><a href="http://www.sunandshade.us/FVA%20Control%20Page%202%20(IT).htm" target="_blank">IT</a>
+			<ul>
+				<li><a href="http://www.sunandshade.us:2086" target="_blank">WHM</a></li>
+				<li><a href="http://ostego.snhdns.com:2082/" target="_blank">CPanel</a></li>
+				<li><a href="http://www.w3schools.com/" target="_blank">W3 Accademy</a></li>
+				<li><a href="chrome://fireftp/content/fireftp.xul#" target="_blank">FTP</a></li>
+				<li><a href="https://www.google.com/webmasters/tools/dashboard?hl=en&siteUrl=http://www.super-handyman.net/&authuser=0" target="_blank">Web Mast. Tools</a></li>
+				<li><a href="https://developer.android.com/training/basics/firstapp/starting-activity.html" target="_blank">Android Training</a></li>
+				<li><a href="https://www.jetbrains.com/idea/features/android-tutorials.jsp" target="_blank">IntelliJ (android)</a></li>
+				<li><a href="https://billing.totalchoicehosting.com/clientarea.php" target="_blank">TCH</a></li>
+				<li><a href="http://www.sunandshade.us:2082" target="_blank">Sun and shade</a></li>
+				<li><a href="http://www.cabinetbest.com:2082" target="_blank">Cabinetbest</a></li>
+				<li><a href="http://www.assemblingit.com:2082" target="_blank">Asseembling-it</a></li>
+				<li><a href="https://a2nwvpweb070.shr.prod.iad2.secureserver.net:8443/smb/web/view" target="_blank">Mainto.co</a></li>
+				<li><a href="https://a2nwvpweb070.shr.prod.iad2.secureserver.net:8443/smb/file-manager/list" target="_blank">Mainto.co Files</a></li>
+				</ul>
+		</li>
+		<li><a href="http://www.sunandshade.us/FVA%20Control%20Page%203%20(Sailing).htm" target="_blank">Sailing</a>
+			<ul>
+				<li><a href="" target="_blank">Void</a></li>
+				<li><a href="" target="_blank">Void</a></li>
+			</ul>
+		</li>			
+		<li><a href="http://www.sunandshade.us/FVA%20Control%20Page%204%20(Legal).htm" target="_blank">Legal Affairs</a>
+			<ul>
+				<li><a href="https://www.browardclerk.org/Web2/" target="_blank">Clerk Of The Courts</a></li>
+				<li><a href="https://www.myflcourtaccess.com/" target="_blank">e-filling</a></li>
+				<li><a href="https://www.clerk-17th-flcourts.org/SelfService/selfhelp/" target="_blank">Glosario</a></li>
+				<li><a href="http://www.clerk.indian-river.org/en/family-services/" target="_blank">Forms</a></li>
+				<li><a href="http://dictionary.reference.com" target="_blank">Dicctionary 1</a></li>
+				<li><a href="http://www.thefreedictionary.com" target="_blank">Dicctionary 2</a></li>
+				<li><a href="https://egov.uscis.gov/casestatus/displayLogon.do" target="_blank">USCIS</a></li>
+				<li><a href="http://www.flcourts.org/" target="_blank">FL Courts Help</a></li>
+				<li><a href="http://www.browardlegalaid.org/" target="_blank">Legal Aid</a></li>
+				<li><a href="http://www.floridaprobono.org/" target="_blank">Florida Pro Bono</a></li>
+			</ul>
+		</li>
+		<li><a href="http://www.sunandshade.us/FVA%20Control%20Page%205.htm" target="_blank">Careers</a>
+			<ul>
+				<li><a href="http://www.broward.k12.fl.us/dsa/index.shtml" target="_blank">Broward Scools</a></li>
+				<li><a href="http://www.flhsmv.gov/ddl/cdl.html/" target="_blank">Florida DMV</a></li>
+				<li><a href="http://cdltmds.com/" target="_blank">cdltmds</a></li>
+				<li><a href="http://www.metrocdl.com/" target="_blank">Metro CDL</a></li>
+				<li><a href="https://www.cdlschool.com/" target="_blank">CDL School</a></li>
+				<li><a href="http://www.kpdts.com/#" target="_blank">kpdts School</a></li>
+				<li><a href="http://www.dmv.org/fl-florida/" target="_blank">kpdts School</a></li>
+			</ul>
+		</li>
+		<li><a href="FVA%20Control%20Page%206%20(Utiles).htm" target="_blank">Utiles</a>
+			<ul>
+				<li><a href="https://www.municode.com/library/fl/broward_county/codes/code_of_ordinances/?nodeId=PTIICOOR_CH9CO" target="_blank">Municode Chap 9</a></li>
+				<li><a href="http://www.broward.org/PermittingAndLicensing/Licensing/Contractors/Pages/Default.aspx" target="_blank">Broward Contractors</a></li>
+				<li><a href="http://www.floridalicensesandcorporations.com/" target="_blank">School 1</a></li>
+				<li><a href="http://www.contractoretc.com/" target="_blank">School 2</a></li>
+				<li><a href="http://www.contractorsprepschool.com/" target="_blank">School 3</a></li>
+				<li><a href="http://buildingtradeeducation.com/" target="_blank">School 4</a></li>
+				<li><a href="http://boss-school.com/" target="_blank">School 5</a></li>
+				<li><a href="http://www.goldcoastschools.com/construction_brwd_spec_ce.php" target="_blank">School 6</a></li>
+				<li><a href="http://www.redvector.com/" target="_blank">School 7</a></li>
+			</ul>
+		<li><a href="http://www.sunandshade.us/FVA%20Control%20Page%207%20(Suppliers).htm" target="_blank">Suppliers</a>
+		</li>
+		</li>
+	</ul>
+</nav>
+<div id="NavSmall"> <!--Navegador Miniaturas -->
+    <a href="https://www.google.com/calendar"	target="_blank">Calendar</a> 
+	<a href="https://mail.google.com/mail" 		target="_blank">G-mail</a>
+    <a href="https://mail.yahoo.com" 			target="_blank">Y-mail</a>
+    <a href="https://mail.yahoo.com" 			target="_blank">M-mail</a>
+    <a href="http://www.programalotu.net" 		target="_blank">Programalo Tu</a>
+	<a href="http://www.mainto.com" 			target="_blank">Mainto</a>
+	<a href="http://www.super-handyman.net" 	target="_blank">Super H</a>
+	<a href="http://sunandshade.us" 			target="_blank">Sun & Shade</a>
+	<a href="http://cabinetbest.com" 			target="_blank">Cabinetbest</a>
+	<a href="http://www.assemblingit.com" 		target="_blank">Assembling It</a>
+	<a href="">  </a>
+</div>
+<div id = "Container1"> <!--Container Principal de Iconos -->
+	<div id="Tumb"><a href="https://mail.google.com/mail" 				target="_blank"><img src="images/ico-gmail.jpg" 	alt="Handyman" /></a> <br>Google Mail</div>
+	<div id="Tumb"><a href="https://mail.yahoo.com/" 					target="_blank"><img src="images/ico-yahoo.jpg" 	alt="Yahoo Mail" /></a><br>Yahoo Mail</div> 
+	<div id="Tumb"><a href="https://www.google.com/calendar"			target="_blank"><img src="images/ico-calendar.jpg"	alt="calendar"/></a><br>Calendar</div>  
+	<div id="Tumb"><a href="https://www.youtube.com/user/favel6"		target="_blank"><img src="images/ico-youtube.jpg" 	alt="Realtors" /></a><br>You Tube</div> 
+	<div id="Tumb"><a href="https://www.google.com/voice#inbox" 		target="_blank"><img src="images/ico-voice.jpg" 	alt="Google Voice"/></a><br>Google Voice</div> 
+	<div id="Tumb"><a href="https://hangouts.google.com" 				target="_blank"><img src="images/ico-hangouts.jpg" 	alt="Google hangouts"/></a><br>Google Hangouts</div>
+	<div id="Tumb"><a href="https://translate.google.com/#en/es"		target="_blank"><img src="images/ico-translate.jpg"	alt="Google Trans"/></a><br>Google Trans</div> 
+	<div id="Tumb"><a href="https://www.google.com/" 					target="_blank"><img src="images/ico-google.jpg" 	alt="Google"/></a><br>Google Search</div>
+	<div id="Tumb"><a href="http://www.sunandshade.us/FVA%20Links.htm" 	target="_blank"><img src="images/ico-fva.jpg" 		alt="FVA Control"/></a><br>FVA Links</div>
+	<div id="Tumb"><a href="https://signin.ebay.com/ws/eBayISAPI.dll?SignIn" target="_blank"><img src="images/ico-ebay.jpg"	alt="E-bay"/></a><br>E-bay</div> 
+	<div id="Tumb"><a href="https://www.google.com/maps/@26.1325724,-80.293452,15z" target="_blank"><img src="images/ico-ymaps.jpg" 	alt="Finca" /></a><br>Open Street Maps</div> 
+	<div id="Tumb"><a href="http://www.paypal.com/"						target="_blank"><img src="images/ico-paypal.jpg"	alt="Pay Pal" /></a><br>Pay Pal</div> 
+	<div id="Tumb"><a href="https://www.colpensiones.gov.co/" 			target="_blank"><img src="images/ico-colpensiones.jpg"	alt="Colpensiones"/></a><br>Colpensiones</div> 
+	<div id="Tumb"><a href="http://www.mainto.com" 					target="_blank"><img src="images/ico-mainto.jpg"	alt="Mainto US"/></a><br>Mainto</div> 
+	<div id="Tumb"><a href="http://www.super-handyman.net"						target="_blank"><img src="images/ico-handy.jpg"		alt="Handyman" /></a><br>Handyman </div> 
+	<div id="Tumb"><a href="https://www.sunandshade.us"					target="_blank"><img src="images/ico-ss.jpg"		alt="Sun & Shade" /></a><br>Sun & Shade </div> 
+	<div id="Tumb"><a href="http://www.cabinetbest.com"						target="_blank"><img src="images/ico-cabinet.jpg" 	alt="Before"/></a><br>Cabinet Best</div> 
+	<div id="Tumb"><a href="http://www.assemblingit.com" 						target="_blank"><img src="images/ico-assembling.jpg" alt="Assembling"/></a><br>Assembling It</div>
+	<div id="Tumb"><a href="http://www.w3schools.com/cssref/default.asp" target="_blank"><img src="images/ico-w3schools.jpg" 	alt="W3-School" />  </a>	<br>W3 School </div> 
+	<div id="Tumb"><a href="http://www.facebook.com/" 					target="_blank"><img src="images/ico-facebook.jpg"  	alt="Facebook" /> 	</a><br>Facebook</div> 
+	<div id="Tumb"><a href="http://www.pof.com/inbox.aspx" 				target="_blank"><img src="images/ico-pof.jpg"  			alt="Pof" /> 		</a><br>POF</div> 
+	<div id="Tumb"><a href="http://www.caracol1260.com/player.aspx" 	target="_blank"><img src="images/ico-caracol1260.jpg" 	alt="Sailboat" />	</a><br>Caracol 1260</div> 
+	<div id="Tumb"><a href="http://www.sunandshade.us/FVA%20Control%20Page%203%20(Sailing).htm"><img src="images/ico-menus.jpg" alt="Menus" /></a><br>Sailing Menu</div>
+	<div id="Tumb"><a href="http://miami.craigslist.org/search/zip?hasPic=1&postedToday=1&search_distance=15&postal=33324"	target="_blank"><img src="images/ico-craig.jpg" alt="Finca" /></a><br>Free Stuf</div> 
+	<div id="Tumb"><a href="http://miami.craigslist.org/search/tla?query=Compressor&hasPic=1"	target="_blank"><img src="images/ico-craig.jpg" alt="Finca" /></a><br>Tools</div> 
+	<div id="Tumb"><a href="https://photos.google.com/"					target="_blank"><img src="images/ico-photos.jpg" 		height="100px"	alt="Photos" /></a><br>Google Photos</div>
+	<div id="Tumb"><a href="http://librosweb.es/"						target="_blank"><img src="images/ico-w3schools.jpg" 	height="100px"	alt="Libros Web" /></a><br>Libros Web</div>
+	<div id="Tumb"><a href="https://www.youtube.com/watch?v=QqLC10iHOlE&list=PLvq-jIkSeTUaw9krmA6bf5inYcuvUNWI3" target="_blank"><img src="images/ico-youtube.jpg" height="100px"	alt="Tutoriales HTML" /></a><br>Tutoriales HTML</div>
+	<div id="Tumb"><a href="http://www.sunandshade.us/fraccionarios.htm" target="_blank"><img src="images/ico-calculator.jpg" 	height="100px"	alt="calculadora" /></a><br>Calculadora</div>
+	<div id="Tumb"><a href="http://www.cabinetmakerwarehouse.com" 		target="_blank"><img src="images/ico-cabinetmaker.jpg" 	height="100px"	alt="calculadora" /></a><br>Calculadora</div>
+	<div id="Tumb"><a href="http://www.hardwaresource.com/" 			target="_blank"><img src="images/ico-hardwaresource.jpg" 	height="100px"	alt="calculadora" /></a><br>Calculadora</div>
+	<div id="Tumb"><a href="http://www.sunandshade.us/macondo.htm"		target="_blank"><img src="images/ico-macondo.jpg" 		height="100px"	alt="macondo" /></a><br>macondo</div>
+	<div id="Tumb"><a href="http://www.cheapcycleparts.com/oemparts/#/l/hon/5053e9def870021c54be3b4c/2000-cbr600f4-a-parts" target="_blank"><img src="images/ico-CBR600.jpg" height="100px"	alt="CBR600" /></a><br>CBR600 Parts</div>
+	<div id="Tumb"><a href="https://www.citizenshipworks.org/SignIn" 	target="_blank"><img src="images/ico-citizenship.jpg" 		height="100px"	alt="ftp" /></a><br>Ciudadanía 123</div>
+	<div id="Tumb"><a href="https://www.escaladesports.com/basketball" 	target="_blank"><img src="images/ico-scalade.jpg" 		height="100px"	alt="ftp" /></a><br>Scalade Sports</div>
+	<div id="Tumb"><a href="https://www.produnkhoops.com/basketball_goals/adjustable_in_ground/compare.php" 	target="_blank"><img src="images/ico-produnk.jpg" 		height="100px"	alt="produnk" /></a><br>Produnk</div>
+	<div id="Tumb"><a href="http://www.goalsetter.com/" 				target="_blank"><img src="images/ico-goalsetter.jpg" 		height="100px"	alt="ftp" /></a><br>Goalsetter</div>
+	<div id="Tumb"><a href="http://www.goalrilla.com/basketball-hoops/72in-backboard/dc72e1" 	target="_blank"><img src="images/ico-goalrilla.jpg" height="100px"	alt="ftp" /></a><br>Goalrilla</div>
+	<div id="Tumb"><a href="https://www.lifetime.com/gallery/sporting-goods/basketball" 			target="_blank" ><img src="images/ico-lifetime.jpg" alt="Lifetime" /></a><br>Lifetime Hoops</div> 
+	<div id="Tumb"><a href="http://www.megaslamhoops.com/" 				target="_blank" ><img src="images/ico-megaslam.jpg" alt="Megaslam" /></a><br>MegaslamHoops</div> 
+	<div id="Tumb"><a href="https://www.basketball-hoops.com/" 			target="_blank" ><img src="images/ico-ironclad.jpg" alt="Ironclad" /></a><br>Ironclad</div> 
+	<div id="Tumb"><a href="https://www.basketball-hoops.com/" 			target="_blank" ><img src="images/ico-hoopscom.jpg" alt="Lifetime" /></a><br>Hoops.com</div> 
+	<div id="Tumb"><a href="http://vc.browardlibrary.org/#section=myAccount" 			target="_blank" ><img src="images/ico-library.jpg" alt="Lifetime" /></a><br>Hoops.com</div> 
+	<div id="Tumb"><video width="180" height="100" controls><source  src="http://www.sunandshade.us/Sail-Away.mp4" type="video/mp4"> </video><br>Sail Away With Me</div>
+	<div id="Tumb"><iframe width="180" height="100" src="http://www.youtube.com/embed/-svk36Eq08E"> </iframe>Excuse me</div>
+	<div id="Tumb"><iframe width="180" height="100" src="http://www.youtube.com/embed/NrEGwhDOwAA"> </iframe>Rancho Zapatoca</div>
+
+</div >
+<div id="produpic"> <!--fotos de Productos de S&S  -->
+	<a href="images/cushion_01_00_a.jpg" target="_blank"><img src="images/cushion_01_00_c.jpg" 	alt="Cushions"/></a>
+	<a href="images/adirondack_01_00_a.jpg" target="_blank"><img src="images/adirondack_01_00_a.jpg" alt="Adirondack"/></a>
+	<a href="images/chair_02_00_a.jpg" 	target="_blank"><img src="images/chair_02_00_a.jpg" 	alt="Chair 2"/></a>
+	<a href="images/chair_01_00_a.jpg" 	target="_blank"><img src="images/chair_01_00_c.jpg" 	alt="Chair 1"/></a>
+	<a href="images/chair_05_00_a.jpg" 	target="_blank"><img src="images/chair_05_00_c.jpg" 	alt="Chair 5"/></a>
+	<a href="images/chair_04_00_a.jpg" 	target="_blank"><img src="images/chair_04_00_c.jpg" 	alt="Chair 4"/></a>
+	<a href="images/easel_01_00_a.jpg" 	target="_blank"><img src="images/easel_01_00_c.jpg" 	alt="Easel"/></a>
+	<a href="images/cabana_01_00_a.jpg" target="_blank"><img src="images/cabana_01_00_c.jpg" 	alt="Cabana"/></a>
+	<a href="images/3821a.jpg" 			target="_blank"><img src="images/3821c.jpg" 			alt="Broward Schools Calendar" /></a>
+	<a href="images/4493.jpg" 			target="_blank"><img src="images/4493.jpg" 				alt="Visitation" /></a>
+	<a href="images/HTML Color Chart.jpg"  target="_blank"> <img src="images/HTML Color Chart.jpg" 	alt="Colores comunes en HTML" /></a>
+	<a href="images/4484.jpg"  			target="_blank"><img src="images/4484.jpg" 				alt="Listado de Comandos de HTML" border="0" /></a> 
+	<a href="images/named-colors.jpg"  	target="_blank"><img src="images/ico-named-colors.jpg" 	alt="Tabla de Colores" border="0" /></a> 
+	<a href="images/colornamed.jpg"  	target="_blank"><img src="images/colornamed.jpg" 		alt="Listado de Comandos de HTML" border="0" /></a> 
+	<a href="images/ascii-codes.png"  	target="_blank"><img src="images/ico-asciicode.jpg" 	alt="Sailboat" /></a>
+	<a href="images/js_cheat_sheet.jpg" target="_blank"><img src="images/ico-js_cheat_sheet.jpg" alt="js_cheat_sheet" /></a>
+	<a href="images/js_cheat_sheet.jpg" target="_blank"><img src="images/ico-js_cheat_sheet.jpg" alt="js_cheat_sheet" /></a>
+
+</div>
+<div id="links"><p>ENLACES</P> <!--Cuadros con enlaces -->
+	<div class="lazos"><b>PROGRAMACION</b>
+		<li> <a href="http://www.westciv.com/style_master/academy/css_tutorial/index.html" target="_blank" >CSS Tutorial</a> </li>
+		<li> <a href="http://stopdesign.com/eg/buttons/3.0/code.html#" target="_blank" >Botones en CSS</a> </li>
+		<li> <a href="http://www.dynamicdrive.com/style/" target="_blank" >CSS Library</a> </li>
+		<li> <a href="https://getfirebug.com/" target="_blank" >Firebug Development Tools</a> </li>
+		<li> <a href="http://www.javascriptkit.com/" target="_blank" >Java Script Kit Web page</a> </li>
+		<li> <a href="http://www.powerreviewsexpress.com/" target="_blank" >Power Reviews Express</a></li>
+		<li> <a href="http://www.javascriptworld.com/index.html" target="_blank" >  Java Script World </a> </li>
+		<li> <a href="http://www.dhtmlgoodies.com" target="_blank" >DHTML Goodies</a> </li>
+		<li> <a href="http://www.dynamicdrive.com/" target="_blank" > dynamic drive </a> </li>
+		<li> <a href="http://www.dhtmlgoodies.com/scripts/color-schemer/color-schemer.html" target="_blank" >Colores </a></li>
+		<li> <a href="http://www.htmlquick.com/reference/tags.html" target="_blank" >HTML Quick Reference </a> </li>
+		<li> <a href="http://www.guistuff.com/tools/css/colorhex.htm" target="_blank" >Colores Pequeños</a> </li>
+		<li> <a href="http://visuallightbox.com/index.html" target="_blank" >Visual Light Box</a> </li>
+		<li> <a href="http://www.westciv.com/style_master/academy/css_tutorial/index.html" target="_blank" >CSS Tutorial</a> </li>
+		<li> <a href="http://www.w3schools.com/cssref/" target="_blank" >W3 Schools (5 stars)</a>  </li>
+		<li> <a href="http://www.w3.org/TR/html5-author/" target="_blank" >W3 HTML5 Resume</a>  </li>
+		<li> <a href="http://sourceforge.net/" target="_blank" >Source Forge</a>  </li>
+		<li> <a href="http://www.fontsquirrel.com/home" target="_blank" >Font Squirrel</a>  </li>
+		<li> <a href="http://www.cssbasics.com/" target="_blank" >CSS BASICS Reference</a>  </li>
+		<li> <a href="https://developers.google.com/" target="_blank" >Google developers</a>  </li>
+		<li> <a href="https://developers.google.com/youtube/2.0/reference" target="_blank" >Google developers-Youtube</a>  </li>
+	</div>
+		<div class="lazos"><b>Aseembling Comp</b>
+		
+		<li><a href="http://www.yourassemblyman.com/home.html" target="_blank" >Your Assembly M-mailan</a></li>
+		<li> <a href="http://www.1callfixitall.com/" target="_blank" >Competencia SH  </a> </li>
+		<li> <a href="http://www.macassemblies.com" target="_blank" >macassemblies</a></li>
+		<li> <a href="http://www.cjsassembly.com/" target="_blank" >cjsassembly</a></li>
+		<li> <a href="http://www.assemblypro.net/" target="_blank" >Assembly Pro Net</a>  </li>
+		<li> <a href="http://www.professionalassemblyservices.com/Home_Page.html" target="_blank" >Proffesional Assembly Serv</a>  </li>
+		<li> <a href="http://www.assemblyservicespro.com/" target="_blank" >assemblyservicespro</a>  </li>
+		<li> <a href="http://www.uxassembly.com/Default2.aspx" target="_blank" >uxassembly</a>  </li> 
+		<li> <a href="http://unitedassemblers.com/" target="_blank" >unitedassemblers</a>  </li>
+		<li> <a href="http://www.jezinc.com/welcome.html" target="_blank" >jezinc</a>  </li>
+		<li> <a href="http://www.insightservice.net/" target="_blank" >insightservice</a>  </li>
+		<li><a href="http://www.assemblypro.net/" target="_blank" >Assembly Pro</a></li>
+		<li><a href="http://www.cjsassembly.com/" target="_blank">cjsassembly</a></li>
+		<li><a href="http://theassemblymen.com/" target="_blank">Assemblymen</a></li> 
+	</div>
+	<div class="lazos"><b>Maintenance</b>
+		
+		<li><a href="http://www.miamimanagement.com/" target="_blank" >Miami Management</a></li>
+		<li><a href="http://mccormickshomeandoffice.com/" target="_blank" >Mc Cormick</a></li>
+		<li><a href="http://www.highmaintenanceservices.com/" target="_blank" >High Maintenance</a></li>
+		<li><a href="http://www.cbmflorida.com/" target="_blank" >Coastal Building Maintenance</a></li>
+		<li><a href="http://www.allcountymaint.net" target="_blank" >All County Maint</a></li>
+		<li><a href="http://www.janiking.com/" target="_blank" >janiking</a></li>
+		<li><a href="http://bgm.stanford.edu/" target="_blank" >BGM</a></li>
+		<li><a href="http://www.purdue.edu/buildings_grounds/" target="_blank" >Purdue</a></li>	
+		<li><a href="https://www.yell.com/biz/n-and-n-home-and-offices-maintenance-london-901550876/" target="Assemblymen">N & N</a></li> 
+		<li><a href="http://www.sunclean.calls.net/" target="_blank">Sun Clean</a></li> 
+		<li><a href="http://www.homezada.com/" target="_blank">Homezada</a></li> 
+		<br><b>Umbrellas </b>
+		<li> <a href="http://www.blueridgechair.com/index.html" target="_blank" >Blue Ridge</a> </li>
+		<li> <a href="http://lacksoutdoorfurniture.com" target="_blank" >Lack's Outdoor Furniture</a> </li>
+		<li> <a href="http://www.beachstore.com/" target="_blank" >The Beach Store </a> </li>
+		<li> <a href="http://208.76.82.134:2082/logout/?locale=en" target="_blank" >Total Choice Login</a> </li>
+		<li> <a href="http://www.closetfactory.com/" target="_blank" >Closet Factory</a> </li>
+	</div>
+	<div class="lazos"><b>UTILES</b>
+		<li><a href="http://vc.browardlibrary.org/#section=myAccount" target="_blank" >Broward Library</a>  </li>
+		<li><a href="http://legal-dictionary.thefreedictionary.com/" >SDiccionario Legal</a>  </li>
+		<li><a href="http://www.californiaclosets.com" target="_blank" >California Closets</a> </li>
+		<li><a href="http://translate.google.com/#en/es/" target="_blank">Google Translation</a> </li>
+		<li><a href="https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&UsingSSL=1&pUserId=&co_partnerId=2&siteid=0&ru=http%3A%2F%2Fmy.ebay.com%2Fws%2FeBayISAPI.dll%3FMyEbayBeta%26%26tagId%3D-100%26CurrentPage%3DMyeBayNextListIndex%26ssPageName%3DSTRK%253AME%253ALNLK%253AMESINDXX%26guest%3D1&pageType=3984" target="_blank" >E-bay All lists</a></li>
+		<li><a href="http://www.sunandshade.us/" target="_blank" >Sun &amp; Shade web page </a> </li>
+		<li><a href="http://www.sunpass.com/main" target="_blank" >Sunpass</a>  </li>
+		<li><a href="http://www.intellicast.com/Local/Hourly.aspx?location=USFL0149" target="_blank" >Wether</a>  </li>
+		<li><a href="http://cityplywood.com/index.html" target="_blank" >City Plywood</a>  </li>
+		<li><a href="http://imecaus.com/" target="_blank" >Imeca</a>  </li>
+		<li><a href="http://floridalumber.com/en/" target="_blank" >Florida Lumber</a>  </li>
+		<li><a href="http://www.sunandshade.us:2082/cpsess827597872/frontend/x3/mail/webmailform.html?user=contact@sunandshade.us&amp;domain=sunandshade.us" target="_blank" >Squirrel Mail 01</a></li>
+		<li><a href="http://www.sunandshade.us:2095/cpsess827597872/3rdparty/squirrelmail/src/webmail.php" target="_blank" >Squirrel Mail 2</a>  </li>
+		<li><a href="http://www.auction.com/" target="_blank" >Auction.com</a>  </li>
+		<li><a href="http://www.cabinetsquick.com/index" 			target="_blank">Cabinets California</a></li>
+		<li><a href="http://www.besseytools.com/en/index.php" 		target="_blank">Bessey Clamps</a></li>
+		<li><a href="http://sfinstitute.reachlocal.net/?language=en" target="_blank">SFInstitute</a></li>
+		<li><a href="http://degrees.cbt.edu/index.php" 				target="_blank">CBT College</a></li>
+		<li><a href="http://www.featschool.org/" 					target="_blank">F.E.A.T</a></li>
+		<li><a href="http://www.surpluscenter.com" 					target="_blank">Surplus Center</a></li>
+		<li><a href="http://www.scitraining.com/" 					target="_blank">Stratford Institute</a></li>
+		<li><a href="http://www.fontsquirrel.com/"				 	target="_blank">Font Squirrel</a></li>
+	</div>
+	<div class="lazos"><b>Cabinet Best</b>
+		<li><a href="http://www.nkba.org/Courses/LearningPath.aspx" target="_blank">NKBA.org</a></li> 
+		<li><a href="http://hbifflorida.org" target="_blank">HBFI</a></li>
+		<li><a href="http://www.cabinetsquick.com" target="_blank">Cabinets Quick</a></li>
+		<li><a href="http://www.mbkitchendesign.com" target="_blank">MB Kitchen Designers</a></li>
+		<li><a href="http://www.fasterandmaster.com" target="_blank">Faster And Master</a></li>
+		<li><a href="http://diamondremodelers.com" target="_blank">Diamoned Remodelers</a></li>
+		<li><a href="http://www.cabinetsbyvisions.com" target="_blank">Cabinet Visions</a></li>
+		<li><a href="http://www.houzz.com/professionals/kitchen-and-bath/c/Fort-Lauderdale--FL" target="_blank">Houzz</a></li>
+		<li><a href="http://www.barkercabinets.com/Barker-Cabinet-Specifications-s/245.htm" target="_blank">Baker Cabinets</a></li>
+		<li><a href="http://floridaclosets.net/" target="_blank">Florida Closets</a></li>
+		<li><a href="http://www.easyclosets.com" target="_blank">Easy Closets</a></li>
+		<li><a href="http://www.closetfactory.com" target="_blank">Closet Factory</a></li>
+		<li><a href="http://www.closetmaven.com" target="_blank">Closet Maven</a></li>
+		<li><a href="http://www.theclosetdoctor.com" target="_blank">The Closet Doctor</a></li>
+		<li><a href="http://distinctiveclosetdesigns.com" target="_blank">Distinctive Closets</a></li>
+		<li><a href="http://floridacustomclosets.com" target="_blank">Florida Custom Closets</a></li>
+		<li><a href="http://www.jlclosets.com" target="_blank">JL Closets</a></li>
+		<li><a href="http://floridaclosetdesign.com" target="_blank">Florida Closets Design</a></li>
+		<li><a href="http://www.closetsbydesign.com" target="_blank">Closets By Design</a></li>
+		<li><a href="http://www.tailoredliving.com" target="_blank">Taylored Living</a></li>
+		<li><a href="http://www.discountclosets.com" target="_blank">Discount Closets</a></li>
+		<li><a href="http://www.westfloridacabinets.com/gallery.htm" target="_blank">West Florida Cabinets</a></li>
+		<li><a href="http://www.catalinadirect.com" target="_blank">Catalina Dirext</a></li>
+		<li><a href="http://www.cabinetstogo.com" target="_blank">Cabinets Logo</a></li>
+	</div>
+	<div class="lazos"><b>Sailing</b>
+		<li><a href="https://public.myfwc.com/LE/boatramp/public/CountyMap.aspx" target="_blank" >Broward Ramps</a>  </li>
+		<li><a href="http://www.floridamarineguide.com" target="_blank">Marine Guide Florida</a></li>
+		<li><a href="http://www.sailboat-cruising.com" target="_blank">Sailboat-Cruising</a></li>
+		<li><a href="http://www.living-aboard.com" target="_blank">Living Aboard</a></li>
+		<li><a href="http://floridamarineguide.com/florida_boating.html" target="_blank" >FL Marine Guide</a>  </li>
+		<li><a href="https://public.myfwc.com/LE/boatramp/public/CountyMap.aspx" target="_blank" >Broward Ramps</a>  </li>
+		<li><a href="http://www.aicw.org" target="_blank" >AICW.ORG</a>  </li>
+		<li><a href="http://www.sailboat-interiors.com" target="_blank" >Sailboat Interiors</a>  </li>
+		<li><a href="http://www.welcome-aboard.com" target="_blank" >Welcome Aboard</a>  </li>
+		<li><a href="http://alberg30.blogspot.com/2010/07/v-berth.html" target="_blank" >Boat Restoration</a>  </li>
+		<li><a href="http://www.floridagofishing." target="_blank" >Florida Go Fishing</a>  </li>
+		<li><a href="http://www.sailingissues.com/navcourse1.html" target="_blank" >Curso de Navegacion</a>  </li>
+		<li><a href="http://www.scuba-diving-smiles.com/" target="_blank" >Scuba Diving Smiles</a>  </li>
+		<li> <a href="http://www.atlanticriggingsupply.com/info.html" target="_blank" >Rigging Supply</a></li>
+		<li> <a href="http://www.davisnet.com/marine/" target="_blank" >Davis Marine stuff</a></li>
+		<li> <a href="https://www.velasailingsupply.com/" target="_blank" >Vela Sail Supply</a></li>
+		<li> <a href="http://www.datafile.com/" target="_blank" >Free Sailing Books</a></li>
+		<li> <a href="http://www.apsltd.com//" target="_blank" >Sailors Outfitters</a></li>
+		<li> <a href="http://www.samsonrope.com/Pages/SpliceInstructions.aspx" target="_blank" >Splice Instructions</a></li>
+		<li> <a href="http://www.hamiltonmarine.com" target="_blank" >Hamilton Marine Supplies</a></li>
+		<li> <a href="http://www.webriggingsupply.com" target="_blank" >Rigging Supply</a></li>
+		<li> <a href="http://www.onlineropestore.com" target="_blank" >On Line Rope Store.com</a></li>
+		<li> <a href="http://www.landfallnavigation.com" target="_blank" >Landfall Suppliers</a></li>
+		<li> <a href="http://fieldcomponents.com/" target="_blank" >Connectors supplier</a></li>
+		<li> <a href="http://www.woodchiplumber.com/" target="_blank" >Teka, Hardwood lumber</a></li>
+		<li> <a href="http://www.seafarermarine.com/" target="_blank" >Seafarer Hardwoods</a></li>
+		<br><b>Marine Charts</b>
+		<li><a href="http://geographic.org/nautical_charts/all_charts.html" target="_blank" >Ful Size charts</a>  </li>
+		<li><a href="http://www.oceangrafix.com/chart/zoom?chart=11470" target="_blank" >Chart 11470 (F.Lauderdale ICW)</a>  </li>
+		<li><a href="http://ocsdata.ncd.noaa.gov/BookletChart/AtlanticCoastBookletCharts.htm" target="_blank" >NOAA Booklets (Atlantic))</a>  </li> 
+		<li><a href="http://www.charts.noaa.gov/OnLineViewer/11470.shtml" target="_blank" >Chart 11470 (NOAA Viewer)</a>  </li>
+		<li><a href="http://www.charts.noaa.gov/OnLineViewer/11467.shtml" target="_blank" >Chart 11470 (NOAA Viewer)</a>  </li>
+		<li><a href="https://openseachart.org/" target="_blank" >Open Charts</a>  </li>
+	</div>	
+	<div class="lazos"><b>Canvas & Trailers</b>
+		<li><a href="http://www.bainbridgeintcatalogs.com/" target="_blank" >Bridge Catalogs Pompano</a></li>
+		<li><a href="http://www.beaver-brandcanvas.com/index.html" target="_blank" >Beaver (Lonas y tubería))</a></li>
+		<li><a href="http://manart-hirsch.com/MANART-HIRSCH.COM/" target="_blank" >Manar-Hirsch (Canvas supplier)</a></li>
+		<li><a href="http://triadtrailers.com/" target="_blank" >Sailboat Trailers</a></li> 
+		<li><a href="http://www.easternmarine.com/" target="_blank" >Trailer Parts Superstore</a></li>
+		<li><a href="http://www.etrailer.com/Trailer-Parts" target="_blank" >E-Trailer Parts</a></li>
+		<li><a href="http://seafarermarine.com/home.html" target="_blank" >Sea Farer Marine Suppliers</a></li>
+		<li><a href="http://www.trailerpartsdepot.com" target="_blank" >Trailer Parts Depot</a></li>
+		<li><a href="http://www.easternmarine.com/Boat-Trailer-Roller-Assemblies/" target="_blank" >Trailer Parts</a>  </li>
+		<li><a href="http://www.nationalfoamproducts.com" target="_blank">Pompano Foam Products</a></li>
+		<li><a href="http://www.keystonbros.com/" target="_blank">Key Stone Bros</a></li>
+		<li><a href="http://www.hrdmarinestore.com" target="_blank">marine Store</a></li>
+		<li><a href="http://www.perfectfit.com/" target="_blank">Perfectfit Upholstery/</a></li>
+		<li><a href="http://cmoh2o.com/" target="_blank">Marine Outfiters</a></li> 
+	</div>
+</div>
+<br>
+<div id = "ventana2">
+	<a href="images/3821.jpg" >						<img src="images/3821a.jpg" 				width="175" height="200" 	alt="Broward Schools Calendar" /></a>
+	<a href="images/4493.jpg" > 					<img src="images/4493.jpg" 				width="175" height="200" 	alt="Visitation" /></a>
+	<a href="images/HTML Color Chart.jpg" > 		<img src="images/HTML Color Chart.jpg" 	width="180" height="200" 	alt="Colores comunes en HTML" /></a>
+	<a href="images/4484.jpg" > 					<img src="images/4484.jpg" 				width="150" height="200" 	alt="Listado de Comandos de HTML" border="0" /></a> 
+	<a href="images/named-colors.jpg" > 			<img src="images/ico-named-colors.jpg" 	width="200" 				alt="Tabla de Colores" border="0" /></a> 
+	<a href="images/colornamed.jpg" > 				<img src="images/colornamed.jpg" 		width="150" height="200"	alt="Listado de Comandos de HTML" border="0" /></a> 
+	<a href="images/ascii-codes.png" >				<img src="images/ico-asciicode.jpg" 	width="150" height="200"	alt="Sailboat" /></a>
+	<a href="images/js_cheat_sheet.jpg" >			<img src="images/ico-js_cheat_sheet.jpg" width="150" height="200"	alt="js_cheat_sheet" /></a>
+	<a href="images/js_cheat_sheet.jpg" >			<img src="images/ico-js_cheat_sheet.jpg" width="150" height="200"	alt="js_cheat_sheet" /></a>
+</div>
+</body></html>

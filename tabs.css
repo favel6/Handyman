@@ -1,0 +1,5 @@
+.tabsbrown {background: maroon; padding: 8; width: 100%; overflow: hidden; }
+.tabsbrown a {color: #CCCC00; background: maroon; text-decoration: none; letter-spacing: 2px; padding: 10px;}
+.tabsbrown a:hover, li.selected a{color: white;}
+.tabsbrown ul {font:bold 12px tahoma, sans-serif; margin:0; padding:0; list-style: none;}
+.tabsbrown li {display: inline; text-transform: uppercase;}

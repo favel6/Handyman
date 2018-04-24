@@ -1,0 +1,115 @@
+
+Create a new Account
+
+Account Creation Status: ok (Account Creation Ok)
+
+    Checking input data...System has 1 free ip.
+    ...Done
+
+    	
+
+    WWWAcct 12.1.0 (c) 1997-2008 cPanel, Inc....
+
+    Dns Zone check is enabled.
+    +===================================+
+    | New Account Info                  |
+    +===================================+
+    | Domain: super-handyman.net
+    | Ip: 208.76.82.136 (n)
+    | HasCgi: y
+    | UserName: superhan
+    | PassWord: gabrielito324
+    | CpanelMod: x3
+    | HomeRoot: /home
+    | Quota: 100 Meg
+    | NameServer1: dns3.snhdns.com
+    | NameServer2: dns4.snhdns.com
+    | NameServer3: 
+    | NameServer4: 
+    | Contact Email: gabri324@gmail.com
+    | Package: yumpcwvi_gabriel
+    | Feature List: default
+    | Language: english
+    +===================================+
+    ...Done
+
+    	
+
+    Running pre creation script (/scripts/prewwwacct)......Done
+
+    	
+
+    Adding User...Removing Shell Access (n)
+    ...Done
+
+    	
+
+    Copying skel files from /home/yumpcwvi/cpanel3-skel/ to /home/superhan/......Done
+
+    	
+    Using Quota v3 Support
+
+    Adding Entries to httpd.conf......Done
+
+    	
+
+    Setting up Mail & Local Domains...localdomains...valiases ...vdomainaliases...vfilters......Done
+
+    	
+
+    Configuring DNS......Done
+
+    	
+
+    Restarting apache......Done
+
+    	
+    Changing password for superhan Password for superhan has been changed
+
+    Updating Authentication Databases...Updating ftp passwords for superhan
+    Ftp password files updated.
+    Ftp vhost passwords synced
+    ...Done
+
+    	
+
+    Verifying MX Records and Setting up Databases......Done
+
+    	
+
+    Setting up Frontpage®...
+    Starting install, port: 80.
+
+    Creating web http://super-handyman.net.
+    Install completed.
+    Setting Password
+    Frontpage passthough auth enabled in /home/superhan/public_html!
+    Frontpage was installed on the following domains: super-handyman.net
+    ...Done
+
+    	
+
+    Setting up Proxy Subdomains......Done
+
+    	
+    Bind reconfiguring on data using rndc Bind reconfiguring on server95 using rndc Bind reconfiguring on server96 using rndc
+
+    Sending Account Information......Done
+
+    	
+    System has 1 free ip.
+
+    Running post creation scripts (/scripts/legacypostwwwacct, /scripts/postwwwacct, /scripts/postwwwacctuser)......Done
+
+    	
+    wwwacct creation finished
+
+    Setting up Domain Pointers......Done
+
+    	
+
+    Setting Reseller Privs......Done
+
+    	
+
+    Account Creation Complete!!!...Account Creation Ok...Done
