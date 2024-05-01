@@ -36,6 +36,6 @@ I'm a long-time Corporate Software Developer.
 </a>
 
 <div>
-[linked IN](https://www.linkedin.com/in/fabio-velasquez-a1574539/)
+[linked IN](https://www.linkedin.com/in/fabio-velasquez-a1574539/)<br>
 [Facebook](https://www.facebook.com/favel6/)
 </div>
