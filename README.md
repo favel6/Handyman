@@ -1,7 +1,3 @@
-
-
-https://github.com/account
-
 # Favelsoft Web Page
 
 
