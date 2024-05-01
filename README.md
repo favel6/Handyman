@@ -24,7 +24,6 @@ I'm a long time Corporate Software Developer.
 
 #### Repositories
 
-
 <a href="https://github.com/favel6/Handyman">
   <img align="center" src="#" />
 </a>
