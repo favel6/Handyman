@@ -16,9 +16,6 @@ I'm a long-time Corporate Software Developer.
 - ❤️ I love writing Visual Basic, C#, HTML, CSS, JS, PHP
 
 
-<code><img height="20" alt="javascript" src=""></code>
-<code><img height="20" alt="react" src="></code>
-<code><img height="20" alt="nodejs" src=""></code>    
 
 | ------------- | ------------- |
 
