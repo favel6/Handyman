@@ -1,4 +1,4 @@
-# Handyman Web Page
+# Favelsoft Web Page
 <p align="center"><a href="https://github.com/favel6"><img width="80%" alt="Hello, I'm Fabio. Computer Programmer" src="" /></a></p>
 
 <br>
@@ -29,3 +29,13 @@ I'm a long-time Corporate Software Developer.
 <a href="https://github.com/favel6/Handyman">
   <img align="center" src="#" />
 </a>
+#### Repositories
+
+<a href="https://github.com/favel6/Handyman">
+  <img align="center" src="#" /> Handyman Web Page
+</a>
+
+<div>
+[linked IN](https://www.linkedin.com/in/fabio-velasquez-a1574539/)
+[Facebook](https://www.facebook.com/favel6/)
+</div>
