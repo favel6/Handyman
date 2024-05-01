@@ -11,7 +11,7 @@ I'm a long time Corporate Software Developer.
 
 - 📈 Web Developer at Broward College
 
-- ❤️ I love writing TypeScript, and building fun experiments on type-level
+- ❤️ I love writing Visual Basic, C#, HTML, CSS, JS, PHP
 
 <code><img height="20" alt="javascript" src=""></code>
 <code><img height="20" alt="typescript" src=""></code>
