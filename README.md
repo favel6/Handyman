@@ -3,7 +3,7 @@
 
 <br>
 
-I'm a long time Corporate software developer. 
+I'm a long time Corporate Software Developer. 
 
 **About me**
 
@@ -12,8 +12,6 @@ I'm a long time Corporate software developer.
 - 📈 Web Developer at Broward College
 
 - ❤️ I love writing TypeScript, and building fun experiments on type-level
-
-- 💬 Ask me about anything [here](https://github.com/anuraghazra/anuraghazra/issues)
 
 <code><img height="20" alt="javascript" src=""></code>
 <code><img height="20" alt="typescript" src=""></code>
