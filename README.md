@@ -29,13 +29,8 @@ I'm a long-time Corporate Software Developer.
 <a href="https://github.com/favel6/Handyman">
   <img align="center" src="#" />
 </a>
-#### Repositories
-
-<a href="https://github.com/favel6/Handyman">
-  <img align="center" src="#" /> Handyman Web Page
-</a>
 
 <div>
 [linked IN](https://www.linkedin.com/in/fabio-velasquez-a1574539/)<br>
-[Facebook](https://www.facebook.com/favel6/)
+(Facebook)[https://www.facebook.com/favel6/]
 </div>
